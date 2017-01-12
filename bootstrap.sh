@@ -29,8 +29,8 @@ sudo update-alternatives --set c++ /usr/bin/g++
 echo Install analyzers
 sudo apt-get install -y clang-tidy-3.8 clang-format-3.8 valgrind valkyrie
 
-echo Install GIT
-sudo apt-get install -y git git-core git-doc gitk meld
+echo Install GIT and SVN
+sudo apt-get install -y git git-core git-doc gitk meld subversion git-svn
 
 echo Install cppcheck
 wget -P /tmp http://downloads.sourceforge.net/project/cppcheck/cppcheck/1.77/cppcheck-1.77.tar.bz2
